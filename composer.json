@@ -1,0 +1,30 @@
+{
+    "name": "silvio/memcache",
+    "description": "Memcache Laravel 6/7",
+    "keywords":     ["Laravel", "Laravel 6", "Laravel 7", "Cache", "Memcache"],
+    "homepage":     "https://github.com/silvioverde/memcache",
+    "type":         "library",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":      "Silvio Verde",
+            "homepage":  "https://github.com/silvioverde"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.3",
+        "illuminate/session": "^6.0|^7.0",
+        "illuminate/cache": "^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Silvio\\Memcache\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
